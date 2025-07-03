@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Wandb (contains API keys and logs)
+wandb/
+
+# Dataset cache
+.cache/
+data/
+datasets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# API Keys and secrets
+.env
+*.key
+config.json
+secrets.json
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# TensorFlow, Keras, ONNX, and other model formats
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+*.joblib
+*.pkl
+*.sav
+
+# Experiment outputs and logs
+outputs/
+output/
+results/
+logs/
+runs/
+checkpoints/
+weights/
+models/
+experiments/
+
+# Generated images and videos
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Dataset formats
+*.csv
+*.tsv
+*.parquet
+*.npz
+*.npy
+*.mat
+*.hdf5
+
+# Test/benchmark outputs
+wandb/
+results/
+face_dataset/
